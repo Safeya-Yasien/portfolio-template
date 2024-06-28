@@ -127,6 +127,11 @@ main .image img {
   position: relative;
   top: 200px;
 }
+@media (max-width: 767px) {
+  main .image img {
+    display: none;
+  }
+}
 /* about */
 .about {
   background-color: var(--dark-color);
